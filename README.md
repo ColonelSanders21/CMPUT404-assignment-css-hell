@@ -26,8 +26,8 @@ Modifications to HTML files
 
 The only modifications made to the Project Gutenberg HTML files are some lines importing my CSS file after the inline CSS is declared:
 
-```<!-- Link to my CSS page -->
-   <link rel="stylesheet" type="text/css" href="style.css">
+```
+<!-- Link to my CSS page --> <link rel="stylesheet" type="text/css" href="style.css">
 ```
 The HTML files are otherwise untouched.
 
