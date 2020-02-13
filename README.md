@@ -21,4 +21,13 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
+Modifications to HTML files
+===========================
+
+The only modifications made to the Project Gutenberg HTML files are some lines importing my CSS file after the inline CSS is declared:
+
+```<!-- Link to my CSS page -->
+   <link rel="stylesheet" type="text/css" href="style.css">
+```
+The HTML files are otherwise untouched.
 
