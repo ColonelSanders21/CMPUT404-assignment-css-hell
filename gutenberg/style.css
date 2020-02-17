@@ -1,13 +1,14 @@
 
 body{
     /* Body of the page as a whole */
-    background-color: #fff2b3;
+    /* background-color: #FFF8CD; */
+    background-image: url(worn_texture.png), linear-gradient(to right, #DDD6A3, #FEEEAE,#DDD6A3); /* Transparent "worn" texture I made for this purpose */
     margin-left: 10%;
     margin-right: 10%;
-    /* display: flex;
+    text-align: justify;
+    display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center; */
+    justify-content: center;
 
 
 }
@@ -23,36 +24,37 @@ pre {
     align-items: center;
 }
 
-img {
-    /* The cover of the book */
-    max-width: 50%;
-    /* align-items: center;
-    justify-content: center; */
+.fig {
+    /* Images in each book */
+    max-width: 30em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
 
 }
+
 
 h1{
     /* The title*/
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-    display: flex;
-    justify-content: center;
-    font-size: 5em;
+    text-align: center;
+    font-size: 3em;
 }
 
-h2, h3{
-    /* Chapter Titles */
+h2, h3, h4, h5{
+    /* Chapter titles, other various headers */
     font-weight: bold;
-    text-decoration: underline;
+    text-align: center;
 }
 
-
-pre table:nth-child(1){
-    /* The link to the illustrated ebook in Frankenstein is in the preamble, so we want to order it like the others. */
-    order: 2;
+p{
+    /* Content of chapter */
+    text-indent: 1em;
 }
 
-.chapter p:nth-child(3)::first-letter, p + h3 + p::first-letter{
-    /* First letter of the first paragraph of each chapter in Pride and Prejudice and Frankenstein.*/
+.chapter p:nth-child(3)::first-letter, h4 + p::first-letter{
+    /* First letter of the first paragraph of each chapter in Pride and Prejudice and A Christmas Carol.*/
 
     /* This uses a modified version of the included CSS of Tale of Two Cities, which 
        similarily makes the first letter larger. */
@@ -62,23 +64,11 @@ pre table:nth-child(1){
     line-height: 0.7;
 }
 
-.chapter p:nth-child(3), h3 + p{
+.chapter p:nth-child(3), h4 + p, blockquote > p{
+    /* First paragraph of a chapter in both Pride and Prejudice and A Christmas Carol, and also
+       the blockquotes inside each book */
+
     /* Ensures that the first paragraph of a chapter is not indented, such that the first 
        letter being larger does not feel out of place. */
     text-indent: 0;
-}
-
-.letter2:before{
-    /* Adds one blank char before the start of each Letter chapter of Frankenstein. 
-       This is to prevent the first letter from being capitalized like the other paragraphs,
-       since these letter chapters adhere to different styling.*/
-    content: "";
-}
-
-blockquote:nth-child(1){
-    /* This is the chapter selection menu. */
-    color: orange;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: flex-end; */
 }
