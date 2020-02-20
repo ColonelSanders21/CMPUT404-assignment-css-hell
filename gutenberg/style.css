@@ -1,16 +1,14 @@
 
 body{
     /* Body of the page as a whole */
-    /* background-color: #FFF8CD; */
-    background-image: url(worn_texture.png), linear-gradient(to right, #DDD6A3, #FEEEAE,#DDD6A3); /* Transparent "worn" texture I made for this purpose */
+    background-image: url(worn_texture.png), linear-gradient(to right, #DDD6A3 0% , #fcf9ed 10% 90%,#DDD6A3); 
+    /* Image is a transparent "worn" texture I made for this purpose */
     margin-left: 10%;
     margin-right: 10%;
     text-align: justify;
     display: flex;
     flex-direction: column;
     justify-content: center;
-
-
 }
 
 pre {

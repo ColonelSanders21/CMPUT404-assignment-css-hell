@@ -1,118 +1,140 @@
-html,body{
+html, body{
     margin:0;
-    font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif
 }
-
-.section_container{
+#top-portion{
+    /* height: 100%; */
+    /* font-size: 2em; */
     display: flex;
     flex-direction: column;
+
 }
 
-.section{
 
+#top-wood{
+
+    background-image: linear-gradient(rgba(252, 131, 39, 0.5), rgba(252, 131, 39, 0.5)),url(wood.jpeg);
+    padding:0.8em;
+    /* From  https://www.pexels.com/photo/abstract-texture-wood-wood-texture-1252947/, no further attribution required*/
+    background-size: cover;
+    box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.74);
+    z-index: 0;
+}
+
+#header{
+    background-image: linear-gradient(#197fbf, #016191);
+    /* Photo by Nextvoyage at https://www.goodfreephotos.com/public-domain-images/mountains-and-fog-landscape.jpg.php (CC0/Public Domain License)*/
+    background-position: 50% 60%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:6em;
+}
+
+#header h1{
+    color:white;
+    position: relative;
+    text-align: center;
+    
+    text-shadow: 0 0 30px white;
+    font-size: 5em;
+}
+#navbar{
+    margin-left: 0;
     display: flex;
     flex-direction: row;
-    align-content: space-between;
-}
+    list-style-type: none;
+    background-image: linear-gradient(#2f373c, #616161);
+    justify-content: center;
+    font-size: 1.25em;
+    border-bottom: 5px solid #009cf7;
+}   
 
-#about{
-    height: 44.4%;
-    background-color: #4F7CAC;
-    color:white;
-}
-#about h2{
-    order: 10;
-    align-self: flex-start;
-    /* font-size: 2em; */
-    /* padding: 1em; */
-    width: 33.3%;
-    /* color: #4F7CAC; */
+#navbar li a{
+    text-decoration: none;
+    text-align: center;
+    color: white;
     height: 100%;
-    text-align: right;
-    padding-right: 1em;
-    font-size: 2em;
-    font-weight: bold;
+    display: block;
+    padding: 1em;
+    float:left;
+    /* font-weight: bold; */
 }
 
-#about img{
-    width: 25%;
-    /* padding-left: 1em; */
+
+#navbar li a:hover{
+    color: #009cf7;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+#main-text{
+    width: 80%;
+    padding: 2em;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    padding: 1em;
+}
 #about p{
-    margin-top: auto;
-    align-self: flex-end;
-    padding-left: 1em;
-    /* font-size: 1.5em; */
-    width: 50%;
     font-size: 1.25em;
 }
-
-#name{
-    font-weight: bold;
+#about h2{
+    font-size: 2.5em;
+}
+#about img{
+    max-width: 20%;
+    object-fit: contain;
 }
 
-#intro{
-    font-size: 1.5em;
+.text-wrapper{
+    align-self: flex-end;
 }
-
 #history{
-    /* height: 33.3%; */
-    padding-left: 1em;
-    background-color: #F5F5F5;
+    padding: 1em;
 }
 #history p{
     font-size: 1.25em;
-    padding-right: 1em;
 }
-
 #history h2{
-    align-self: flex-start;
-    width: 10%;
-    color: #4F7CAC;
-    height: 100%;
-    font-size: 2em;
-    font-weight: bold;
-}
-
-
-#skills{
-    color: white;
-    background-color: #122C34;
-    order: 1;
-    font-size: 1.25em;
-    padding-right: 1em;
-    margin: 0;
-    
-}
-
-#skills h3{
-    text-align: center;
-}
-
-#skills li{
-    padding: 0.2em;
-}
-
-#offer{
-    background-color: #437c8a;
-    display: flex;
-    flex-direction: column;
-    /* height: 22.22%; */
-    padding-left:1em;
-    color: white;
+    font-size: 2.5em;
 }
 
 #offer h2{
-    padding-right: 1em;
-    /* order:1; */
-    width: 25%;
     font-size: 2em;
-    /* align-self: flex-start; */
 }
+
 #offer p{
     font-size: 1.25em;
-    /* align-self: flex-end; */
-    width: 75%;
+}
+.sidebox{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #efefef;
+    padding: 1em;
+    /* width: 20%; */
+}
+
+.sidebox ul{
+    padding: 0;
+    list-style-type: none;
+}
+.sidebox li{
+    padding-bottom: 1em;
+    text-align: center;
+    /* text-align: center; */
+}
+.sidebox h3{
+    text-align: center;
+    color: #4f7e98;
+}
+.sidebox h2{
+    text-align: center;
 }
