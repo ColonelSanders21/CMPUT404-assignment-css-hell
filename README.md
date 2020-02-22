@@ -21,17 +21,19 @@ repository and (C) 2013 Abram Hindle visibile in the text.
 
 Code is licensed under the Apache 2.0 license.
 
-HTML and CSS files in this repository are licensed under the Creative Commons Attribution-NoDerivs 2.0 Canada License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/2.0/ca/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA. 
+HTML and CSS files in this repository are licensed by Anders Johnson under the Creative Commons Attribution-NoDerivs 2.0 Canada License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nd/2.0/ca/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA. 
 
 The HTML files found in gutenberg/ are modified from the originals, which can be found at https://www.gutenberg.org/browse/scores/top . Any alterations have been mentioned below.
 
-Several images sourced found in homepage/images/ have been sourced from external sources:
+Image Attributions
+=================
+Several images found in homepage/images/ have been sourced from external sources:
 * wood.png is a photo by May Barros found [here](https://www.pexels.com/photo/abstract-texture-wood-wood-texture-1252947/) (license is [here](https://www.pexels.com/photo-license/))
 * resume_stock.jpeg is a photo by user Lukas found [here](https://pxhere.com/en/photo/1561525) (license is [here](https://creativecommons.org/publicdomain/zero/1.0/))
 * cat_small.png is a photo by user DarkWorkX found [here](https://pixabay.com/photos/cat-isolated-view-interesting-2943223/) (license is [here](https://pixabay.com/service/license/))
 * handshake.jpeg is a photo by Lood Goosen found [here](https://www.pexels.com/photo/agreement-bee-hand-shake-hands-1249600/) (license is [here](https://www.pexels.com/photo-license/))
 
-All of these have been shared with open licensing allowing use without attribution (but they did the work so I want to share these pages anyways).
+All of these have been shared with open licensing allowing use without attribution (but they did the work so I want to share the sources anyways).
 
 
 Modifications to Gutenberg files
