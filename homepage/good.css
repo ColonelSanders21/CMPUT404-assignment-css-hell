@@ -13,7 +13,7 @@ html, body{
 }
 
 #top-wood{
-    background-image: linear-gradient(rgba(252, 131, 39, 0.5), rgba(252, 131, 39, 0.5)),url(wood.jpeg);
+    background-image: linear-gradient(rgba(252, 131, 39, 0.5), rgba(252, 131, 39, 0.5)),url(images/wood.jpeg);
     padding:0.8em;
     /* Photo by May Barros https://www.pexels.com/photo/abstract-texture-wood-wood-texture-1252947/ */
     background-size: cover;
